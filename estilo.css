@@ -33,4 +33,34 @@ header {
 }
 .reader-conteudo h1{
 	font-weight: bold;
+	text-transform: uppercase;
+	color: white;
+}
+.header-conteudo h3 {
+	color: white;
+	margin-bottom: 30px;
+}
+.botao-solido {
+	background-color: #FF4E50;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 20px;
+	font-weight: bold;
+}
+@media (max-width: 500px){
+	.header-conteudo {
+		padding-left: 0;
+		padding-right: 0;
+		padding-top: 20px;
+		}
+	.header-top {
+		flex-direction: column;
+	}
+	.header-top .logo {
+		order: 2;
+	}
+	.header-top nav {
+		order: 1;
+		margin-bottom: 80px;
+	}
 }
